@@ -1,0 +1,29 @@
+#bitwise_operators 
+a = 5
+b = 3
+print(a&b)
+print(a|b)
+print(a^b)
+print(a<<b)
+print(a>>b)
+
+
+#electric  city bill calculator
+units = int(input("enter electricity units:"))
+
+rate  = 6
+
+bill=units*rate
+
+print("eleltricity bill:",bill)
+
+#travel expense calculator
+travel =float(input("travel expense:"))
+food =float(input("food expense:")) 
+hotel=float(input("hotel expense:"))
+
+total=travel+food+hotel
+print("total expense:",total)
+
+
+
